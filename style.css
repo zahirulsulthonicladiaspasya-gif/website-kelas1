@@ -52,6 +52,10 @@ footer{text-align:center;padding:34px;color:var(--muted);border-top:2px solid va
 #lightbox .ph{width:min(760px,92vw);aspect-ratio:4/3;font-size:4rem}
 #toast{position:fixed;bottom:18px;left:50%;transform:translate(-50%,80px);background:var(--gold);color:#2a170b;font-weight:700;padding:12px 22px;border-radius:4px;transition:.3s;z-index:60}#toast.show{transform:translate(-50%,0)}
 .rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+.mudir{max-width:340px;margin:0 auto 26px;padding:30px 20px;text-align:center}.mudir small{color:var(--gold);letter-spacing:2px;text-transform:uppercase;font-size:.72rem}.mudir h3{color:var(--gold2);font-size:1.15rem}
+.heroes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}.heroes .glass{padding:28px 24px}
+.heroes h3{color:var(--gold2);text-transform:uppercase;letter-spacing:3px;text-align:center;font-size:1rem;margin-bottom:14px}
+.hlist{list-style:none;margin:0;padding:0}.hlist li{padding:8px 0 8px 26px;position:relative;border-bottom:1px dashed var(--line)}.hlist li:last-child{border-bottom:0}.hlist li::before{content:"❖";position:absolute;left:0;top:12px;color:var(--gold);font-size:.75rem}
 @media(max-width:820px){.burger{display:block}
 #menu{position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--bg2);padding:10px 5vw;display:none;border-bottom:2px solid var(--gold)}#menu.open{display:flex}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
