@@ -14,13 +14,11 @@
     {"name": "TikTok", "handle": "@kelas_kita", "url": "https://tiktok.com/"},
     {"name": "Spotify", "handle": "Playlist Kelas", "url": "https://open.spotify.com/"}
   ],
-  "structure": [
-    {"role": "Wali Kelas", "name": "Nama Wali Kelas"},
-    {"role": "Ketua Kelas", "name": "Nama Ketua"},
-    {"role": "Wakil Ketua", "name": "Nama Wakil"},
-    {"role": "Sekretaris", "name": "Nama Sekretaris"},
-    {"role": "Bendahara", "name": "Nama Bendahara"}
-  ],
+  "heroes": {
+    "mudir": {"role": "Mudir PTNQ", "Ust. Zaky Mubarok": "Nama Mudir", "photo": ""},
+    "ustadz": ["Ustadz 1", "Ustadz 2", "Ustadz 3"],
+    "ustadzah": ["Ustadzah 1", "Ustadzah 2", "Ustadzah 3"]
+  },
   "members": [
     {"name": "Nama Siswa 1", "ig": "@siswa1", "photo": ""},
     {"name": "Nama Siswa 2", "ig": "@siswa2", "photo": ""},
