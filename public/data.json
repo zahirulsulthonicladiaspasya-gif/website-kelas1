@@ -15,7 +15,7 @@
     {"name": "Spotify", "handle": "Playlist Kelas", "url": "https://open.spotify.com/"}
   ],
   "heroes": {
-    "mudir": {"role": "Mudir PTNQ", "Ust. Zaky Mubarok": "Nama Mudir", "photo": ""},
+    "mudir": {"role": "Mudir PTNQ", "nama": "Ust. Zaky Mubarok", "photo": ""},
     "ustadz": ["Ustadz 1", "Ustadz 2", "Ustadz 3"],
     "ustadzah": ["Ustadzah 1", "Ustadzah 2", "Ustadzah 3"]
   },
