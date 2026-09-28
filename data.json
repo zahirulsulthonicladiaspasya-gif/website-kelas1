@@ -1,0 +1,47 @@
+{
+  "brand": "GMD 7.6",
+  "className": "ASTRAWANGSA",
+  "tagline": "Jadikan setiap hari sebuah petualangan. Raih impian bersama.",
+  "heroImage": "/img/angkatan.jpeg",
+  "about": "Kelas kami adalah rumah bagi para calon ahli teknologi yang saling mendukung, belajar, dan tumbuh bersama. Website ini menyimpan kenangan yang tidak ingin kami lupakan.",
+  "stats": [
+    {"n": 72, "l": "Siswa"},
+    {"n": 36, "l": "Putri"},
+    {"n": 36, "l": "Putra"}
+  ],
+  "social": [
+    {"name": "Instagram", "handle": "@kelas_kita", "url": "https://instagram.com/"},
+    {"name": "TikTok", "handle": "@kelas_kita", "url": "https://tiktok.com/"},
+    {"name": "Spotify", "handle": "Playlist Kelas", "url": "https://open.spotify.com/"}
+  ],
+  "structure": [
+    {"role": "Wali Kelas", "name": "Nama Wali Kelas"},
+    {"role": "Ketua Kelas", "name": "Nama Ketua"},
+    {"role": "Wakil Ketua", "name": "Nama Wakil"},
+    {"role": "Sekretaris", "name": "Nama Sekretaris"},
+    {"role": "Bendahara", "name": "Nama Bendahara"}
+  ],
+  "members": [
+    {"name": "Nama Siswa 1", "ig": "@siswa1", "photo": ""},
+    {"name": "Nama Siswa 2", "ig": "@siswa2", "photo": ""},
+    {"name": "Nama Siswa 3", "ig": "@siswa3", "photo": ""},
+    {"name": "Nama Siswa 4", "ig": "@siswa4", "photo": ""},
+    {"name": "Nama Siswa 5", "ig": "@siswa5", "photo": ""},
+    {"name": "Nama Siswa 6", "ig": "@siswa6", "photo": ""}
+  ],
+  "gallery": [
+    {"title": "Foto Kelas", "photo": ""},
+    {"title": "Study Tour", "photo": ""},
+    {"title": "Class Meeting", "photo": ""},
+    {"title": "Praktik Jaringan", "photo": ""},
+    {"title": "Hari Guru", "photo": ""},
+    {"title": "Makan Bersama", "photo": ""},
+    {"title": "Perpisahan", "photo": ""},
+    {"title": "Upacara", "photo": ""}
+  ],
+  "achievements": [
+    {"title": "Juara 1 Lomba Futsal (HUT RI)", "text": "Perjalanan di kelas X langsung menunjukkan dominasi di bidang olahraga dengan meraih juara 1 lomba futsal.", "photo": ""},
+    {"title": "Juara 2 Drama Musikal", "text": "Kekompakan seluruh siswa tampil di atas panggung dalam ajang drama musikal sekolah.", "photo": ""},
+    {"title": "Juara Harapan Lomba Jaringan", "text": "Membawa nama baik kelas di kompetisi keterampilan jaringan tingkat kota.", "photo": ""}
+  ]
+}

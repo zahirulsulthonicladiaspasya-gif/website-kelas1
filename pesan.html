@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pesan Kenangan</title>
+  <meta name="theme-color" content="#1a0e07">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #menu{display:flex!important;position:static;flex-direction:row;background:none;padding:0;border:0}
+    .info{text-align:center;color:var(--muted);font-size:.85rem;margin:-10px auto 26px;max-width:520px}
+    .warn{max-width:520px;margin:0 auto 20px;padding:12px 18px;text-align:center;font-size:.85rem;color:var(--gold2);border:1px dashed var(--gold);border-radius:4px}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html" id="brand">Kelas</a>
+    <nav id="menu" aria-label="Navigasi utama"><a href="index.html">← Beranda</a></nav>
+  </header>
+  <main>
+    <section class="sec" style="padding-top:130px">
+      <h2>Pesan Kenangan</h2>
+      <p class="lead">Tulis satu kalimat untuk teman-teman sekelas.</p>
+      <p class="info" id="reset"></p>
+      <form class="glass msg" id="mf">
+        <input name="name" placeholder="Namamu" maxlength="40" required aria-label="Nama">
+        <textarea name="text" rows="3" placeholder="Pesan singkat..." maxlength="200" required aria-label="Pesan"></textarea>
+        <button class="btn">Kirim Pesan</button>
+      </form>
+      <div class="warn" id="note" hidden>Mode lokal: pesan hanya tersimpan di browser ini karena database belum aktif.</div>
+      <p class="info" id="count"></p>
+      <div class="wall" id="wall"></div>
+    </section>
+  </main>
+  <footer><p id="foot"></p></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="pesan.js"></script>
+</body>
+</html>
