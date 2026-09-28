@@ -1,7 +1,7 @@
 "use strict";
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const NAV = [["home", "Home"], ["tentang", "Tentang"], ["media", "Media"], ["struktur", "Struktur"], ["anggota", "Anggota"], ["gallery", "Gallery"], ["prestasi", "Prestasi"], ["pesan", "Pesan"]];
+const NAV = [["home", "Home"], ["tentang", "Tentang"], ["media", "Media"], ["struktur", "Our Hero"], ["anggota", "Anggota"], ["gallery", "Gallery"], ["prestasi", "Prestasi"], ["pesan", "Pesan"]];
 const PER_PAGE = 6;
 let D = {}, page = 1;
 
@@ -38,7 +38,11 @@ function render() {
   $("#home").innerHTML = `<span class="pill">WEBSITE RESMI</span><div class="orn" aria-hidden="true">❖ ❖ ❖</div><h1>Sugeng Rawuh<span>${esc(D.className)}</span></h1><p>“${esc(D.tagline)}”</p><div><a class="btn" href="#tentang">Masuk Pendhapa</a></div>`;
   $("#tentang").innerHTML = head("Tentang " + esc(D.className), D.about) + `<div class="stats">${D.stats.map((s) => `<div class="glass"><b>${s.n}</b><span>${esc(s.l)}</span></div>`).join("")}</div>`;
   $("#media").innerHTML = head("Media Sosial", "Ikuti kami untuk melihat momen dan cerita terbaru.") + `<div class="grid">${D.social.map((s) => `<a class="glass" href="${esc(s.url)}" target="_blank" rel="noopener"><h3>${esc(s.name)}</h3><small>${esc(s.handle)}</small></a>`).join("")}</div>`;
-  $("#struktur").innerHTML = head("Struktur Kelas") + `<div class="grid">${D.structure.map((s) => `<div class="glass"><small>${esc(s.role)}</small><h3>${esc(s.name)}</h3></div>`).join("")}</div>`;
+  const H = D.heroes || {};
+  const li = (arr) => (arr || []).map((n) => `<li>${esc(n)}</li>`).join("");
+  $("#struktur").innerHTML = head("Our Hero", "Terima kasih kepada para guru yang telah membimbing kami.") +
+    `<div class="glass mudir"><div class="avatar" ${bg(H.mudir?.photo)}>${H.mudir?.photo ? "" : ini(H.mudir?.name || "M")}</div><small>${esc(H.mudir?.role || "Mudir PTNQ")}</small><h3>${esc(H.mudir?.name)}</h3></div>` +
+    `<div class="heroes"><div class="glass"><h3>Ustadz</h3><ul class="hlist">${li(H.ustadz)}</ul></div><div class="glass"><h3>Ustadzah</h3><ul class="hlist">${li(H.ustadzah)}</ul></div></div>`;
   $("#anggota").innerHTML = head("Anggota Angkatan", "Daftar lengkap keluarga besar kami.") +
     rail("r1", D.members.map((m) => `<article class="glass member"><div class="avatar" ${bg(m.photo)}>${m.photo ? "" : ini(m.name)}</div><h3>${esc(m.name)}</h3><small>${esc(m.ig)}</small></article>`).join(""));
   $("#gallery").innerHTML = head("Gallery", "Sebagian momen yang berhasil kami abadikan.") + `<div id="galwrap"></div>`;
