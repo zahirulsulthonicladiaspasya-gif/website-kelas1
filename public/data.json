@@ -3,7 +3,7 @@
   "className": "ASTRAWANGSA",
   "tagline": "Jadikan setiap hari sebuah petualangan. Raih impian bersama.",
   "heroImage": "img/astrawangsa.jpeg",
-  "about": "Kelas kami adalah rumah bagi para calon ahli teknologi yang saling mendukung, belajar, dan tumbuh bersama. Website ini menyimpan kenangan yang tidak ingin kami lupakan.",
+  "about": "Angkatan kami adalah rumah bagi para calon ahli generasi terdepan dan qur'ani yang saling mendukung, belajar, dan tumbuh bersama. Website ini menyimpan kenangan yang tidak ingin kami lupakan.",
   "stats": [
     {
       "n": 36,
@@ -29,11 +29,6 @@
       "handle": "@kelas_kita",
       "url": "https://tiktok.com/"
     },
-    {
-      "name": "Spotify",
-      "handle": "Playlist Kelas",
-      "url": "https://open.spotify.com/"
-    }
   ],
   "members": [
     {
