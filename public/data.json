@@ -27,34 +27,34 @@
   ],
   "members": [
     {
-      "name": "Nama Siswa 1",
-      "ig": "@siswa1",
-      "photo": ""
+      "name": "Pasya",
+      "ig": "@pasyacladias",
+      "photo": "img/pasya.jpeg"
     },
     {
-      "name": "Nama Siswa 2",
-      "ig": "@siswa2",
-      "photo": ""
+      "name": "Raia",
+      "ig": "@raia.kimmich6",
+      "photo": "img/raia.jpeg"
     },
     {
-      "name": "Nama Siswa 3",
-      "ig": "@siswa3",
-      "photo": ""
+      "name": "Denys",
+      "ig": "@ysalifiantoo",
+      "photo": "img/denys.jpeg"
     },
     {
-      "name": "Nama Siswa 4",
-      "ig": "@siswa4",
-      "photo": ""
+      "name": "Yazid",
+      "ig": "@yazidshuu",
+      "photo": "img/yazid.jpeg"
     },
     {
-      "name": "Nama Siswa 5",
-      "ig": "@siswa5",
-      "photo": ""
+      "name": "Atta",
+      "ig": "@attaaa_14",
+      "photo": "img/atta.jpeg"
     },
     {
-      "name": "Nama Siswa 6",
-      "ig": "@siswa6",
-      "photo": ""
+      "name": "Erba",
+      "ig": "@abcderba",
+      "photo": "img/erba.jpeg"
     }
   ],
   "gallery": [
